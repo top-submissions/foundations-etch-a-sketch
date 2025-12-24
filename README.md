@@ -1,63 +1,66 @@
-# etch-a-sketch
+# Etch-A-Sketch
 
-## Checklist
+A browser-based Etch-A-Sketch application built with HTML, CSS, and vanilla JavaScript as part of The Odin Project's Foundations Path.
 
-### Tasks:
-1. Touch files:
-    - [x] index.html
-    - [x] styles.css
-    - [x] script.js
+## 📋 Project Overview
 
-2. Initialize index.html
-    - [x] Create boilerplate
-    - [x] Link styles.css
-    - [x] Link script.js
+This project allows users to create a customizable grid where each cell can change color when hovered over. The app demonstrates DOM manipulation, event handling, and dynamic grid generation.
 
-3. Structure DOM in index.html
-    - [x] Add a label and input for number of rows and columns for grid
-    - [x] Add a grid container
-    - [x] Add buttons to clear and create new grid
+## ✨ Features
 
-4. Add selectors in styles.css
-    - [x] grid-container
-    - [x] grid-row
-    - [x] grid-cell
+- **Dynamic Grid**: Users can specify the number of rows and columns for the grid.
+- **Interactive Cells**: Hovering over a cell changes its color randomly.
+- **Clear Grid**: Reset the grid without refreshing the page.
+- **Responsive Layout**: Grid adjusts to fit the container.
 
-5. Add sections to script.js
-    - [x] Variables
-    - [x] Query Selectors
-    - [x] Event Listeners
-    - [x] Functions
+## 🛠️ Technologies Used
 
-6. Populate Variables section in script.js
-    - [x] currentRow
-    - [x] rowCount
-    - [x] currentCell
-    - [x] cellCount
+- **HTML5**: Semantic markup structure.
+- **CSS3**: Grid layout, styling, and responsive design.
+- **JavaScript (ES6)**: DOM manipulation, event listeners, and dynamic element creation.
 
-7. Populate Query Selectors section in script.js
-    - [x] rowCountInput
-    - [x] loadGridBtn
-    - [x] clearGridBtn
-    - [x] gridContainer
+## 🚀 Getting Started
 
-8. Populate Event Listeners section in script.js
-    - [x] clearGridBtn
-    - [x] loadGridBtn
-        - Create new grid
-        - Add classes
-        - Append to body
-        - Refer gridContainer to it
-    - [x] loadCellsBtn
-        - [x] Get value from rowCountInput
-        - [x] Assign values to rowCount and cellCount
-        - [x] Iterate through rows
-            - [x] Create row item, and assign classes
-            - [x] Iterate through current row's cells
-                - [x] Create cell item, and assign classes
-                - [x] Add event listener that calls a function that changes the cell's color randomly
-                - [x] Append cell item to row item
+### Prerequisites
 
-9. Fix bugs
-    - [x] Space between rows
-    - [x] Rows not stretching to end of grid container
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- Basic understanding of HTML, CSS, and JavaScript
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/top-submissions/foundations-etch-a-sketch.git
+````
+
+2. Navigate to the project directory:
+
+```bash
+cd foundations-etch-a-sketch
+```
+
+3. Open the project in your browser:
+
+* Open `index.html` directly in a web browser, or
+* Open the folder in a code editor and launch a live server.
+
+## 🎨 Usage
+
+1. Enter the number of rows and columns for the grid.
+2. Click **Load Grid** to generate the grid.
+3. Hover over cells to see them change color.
+4. Click **Clear Grid** to reset the grid.
+
+## 📚 Learning Outcomes
+
+* DOM manipulation with JavaScript
+* Event handling and listeners
+* Dynamic HTML element creation
+* CSS Grid for layout and responsiveness
+* Debugging layout and alignment issues
+
+## 🙏 Acknowledgments
+
+* The Odin Project for the project specification and guidance
+* Inspiration from classic Etch-A-Sketch toys
